@@ -24,8 +24,8 @@ for j in data:
 intensite = []
 longueur = []
 for k in range(0,1100):
-    intensite.append(int(data[k][1]))
-    longueur.append(int(float(data[k][2])))
+    longueur.append(int(data[k][1]))
+    intensite.append(int(float(data[k][2])))
 
-plt.plot(intensite, longueur)
+plt.plot(longueur, intensite)
 plt.show()
